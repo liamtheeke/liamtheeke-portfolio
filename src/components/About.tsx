@@ -5,23 +5,23 @@ const About = () => {
   const skills = [
     {
       icon: <Brain className="w-8 h-8" />,
-      title: "Strategic Thinking",
-      description: "Identifying opportunities and defining product vision through data-driven insights."
+      title: "Strategic Product Vision",
+      description: "Implementing solutions saving $125M+ in costs and driving $625M ROI through data-driven product strategy at Amazon."
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "User-Centered Design",
-      description: "Building solutions that truly resonate with users and solve real problems."
+      title: "Leadership & Team Building",
+      description: "Leading cross-functional teams, managing 5-person development teams, and interviewing 100+ candidates to maintain high hiring standards."
     },
     {
       icon: <Code className="w-8 h-8" />,
       title: "Technical Implementation",
-      description: "Bringing ideas to life through code, bridging the gap between vision and reality."
+      description: "Building ML products, AI applications, regression models, and internal tools with 3,000+ users. Proficient in SQL, Python, and data analysis."
     },
     {
       icon: <Target className="w-8 h-8" />,
-      title: "Execution Excellence",
-      description: "Shipping products that deliver measurable impact and user value."
+      title: "Process Optimization",
+      description: "Six Sigma methodologies, supply chain optimization, and agile/scrum product development delivering measurable business impact."
     }
   ];
 
@@ -34,10 +34,11 @@ const About = () => {
               About Me
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              I'm a product manager who believes the best products come from understanding 
-              both the strategic why and the technical how. My "vibe coding" projects are 
-              experiments where I explore ideas, test hypotheses, and build solutions that 
-              matter.
+              I'm a Product Manager at Amazon who has driven over $625M in ROI through strategic 
+              supply chain innovations. I believe the best products come from understanding both 
+              the strategic why and the technical how. My "vibe coding" projects are experiments 
+              where I explore ideas, test hypotheses, and build solutions that matter - combining 
+              my PM experience with hands-on development skills.
             </p>
           </div>
           

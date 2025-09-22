@@ -22,16 +22,16 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Product Manager
+            Liam Theeke
             <br />
             <span className="bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
-              & Vibe Coder
+              Product Manager
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Bridging the gap between product vision and technical execution through 
-            creative coding experiments and user-centered solutions.
+            Amazon Product Manager driving $625M+ ROI through strategic supply chain innovations. 
+            Bridging product vision with technical execution through data-driven solutions and creative coding.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
