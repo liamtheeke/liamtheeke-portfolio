@@ -19,7 +19,7 @@ const Hero = () => {
           {/* Professional headshot */}
           <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden border-4 border-white/30 shadow-elegant">
             <img 
-              src="/src/assets/liam-profile.jpg" 
+              src="/liam-profile.jpg" 
               alt="Liam Theeke - Product Manager" 
               className="w-full h-full object-cover"
             />
