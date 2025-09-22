@@ -1,13 +1,13 @@
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
-  // Placeholder projects - you'll replace these with your actual projects
   const projects = [
     {
-      title: "Your First Project",
-      description: "This will be replaced with your actual project description. Share the problem you solved, your approach as a PM, and the technical implementation.",
-      tags: ["Product Strategy", "React", "TypeScript", "Problem Solving"],
-      isPlaceholder: true,
+      title: "PL Survivor",
+      description: "A Premier League survival game where players pick winners each gameweek to survive elimination. Features group creation, lives system, power-ups, and a competitive pot system. Built with engaging UI and real-time game state management.",
+      tags: ["Game Design", "User Engagement", "Sports Tech", "Group Dynamics"],
+      liveUrl: "https://huggingface.co/spaces/liamtheeke/pl-survivor",
+      imageUrl: "/src/assets/pl-survivor-screenshot.png",
     },
     {
       title: "Another Vibe Project",
