@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, MessageCircle, Calendar, Github, Linkedin } from "lucide-react";
+import { Mail, Calendar, Github, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -57,9 +57,6 @@ const Contact = () => {
               <a href="https://www.linkedin.com/in/liamtheeke/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
               </a>
-            </Button>
-            <Button variant="outline" size="icon" className="hover:bg-primary hover:text-white transition-colors">
-              <MessageCircle className="h-5 w-5" />
             </Button>
           </div>
         </div>
