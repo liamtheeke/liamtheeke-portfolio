@@ -7,14 +7,14 @@ const Projects = () => {
       description: "A Premier League survival game where players pick winners each gameweek to survive elimination. Features group creation, lives system, power-ups, and a competitive pot system. Built with engaging UI and real-time game state management.",
       tags: ["Game Design", "User Engagement", "Sports Tech", "Group Dynamics"],
       liveUrl: "https://huggingface.co/spaces/liamtheeke/pl-survivor",
-      imageUrl: "/src/assets/pl-survivor-screenshot.png",
+      imageUrl: "/pl-survivor-screenshot.png",
     },
     {
       title: "AI Bingo Buddy",
       description: "A custom ChatGPT that creates printable themed bingo cards with interactive features for any event. Demonstrates AI prompt engineering and product design thinking for community-building tools and event engagement.",
       tags: ["AI Product Design", "Community Building", "Prompt Engineering", "Event Tools"],
       liveUrl: "https://chatgpt.com/g/g-6884f09fbc108191863f101eff5d2652-ai-bingo-buddy",
-      imageUrl: "/src/assets/ai-bingo-buddy-screenshot.png",
+      imageUrl: "/ai-bingo-buddy-screenshot.png",
     },
     {
       title: "PM Experiment",
