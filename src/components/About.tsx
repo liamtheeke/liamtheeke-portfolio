@@ -16,7 +16,7 @@ const About = () => {
     {
       icon: <Code className="w-8 h-8" />,
       title: "Technical Implementation",
-      description: "Building ML products, AI applications, regression models, and internal tools with 3,000+ users. Proficient in SQL, Python, and data analysis."
+      description: "Creating MVPs through vibe coding and collaborating effectively with engineers to expand ideas into production-ready solutions. Strong technical partnership skills."
     },
     {
       icon: <Target className="w-8 h-8" />,
