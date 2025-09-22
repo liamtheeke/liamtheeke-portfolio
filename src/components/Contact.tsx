@@ -38,8 +38,10 @@ const Contact = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   Book a time that works for both of us
                 </p>
-                <Button variant="outline" size="sm">
-                  Book a Meeting
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://calendar.app.google/1rP37ZRPWPKxWqC86" target="_blank" rel="noopener noreferrer">
+                    Book a Meeting
+                  </a>
                 </Button>
               </CardContent>
             </Card>
