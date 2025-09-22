@@ -10,10 +10,11 @@ const Projects = () => {
       imageUrl: "/src/assets/pl-survivor-screenshot.png",
     },
     {
-      title: "Another Vibe Project",
-      description: "Another placeholder for your creative coding project. Describe the user problem, your product thinking, and the technical solution you built.",
-      tags: ["User Research", "API Integration", "Design Thinking"],
-      isPlaceholder: true,
+      title: "AI Bingo Buddy",
+      description: "A custom ChatGPT that creates printable themed bingo cards with interactive features for any event. Demonstrates AI prompt engineering and product design thinking for community-building tools and event engagement.",
+      tags: ["AI Product Design", "Community Building", "Prompt Engineering", "Event Tools"],
+      liveUrl: "https://chatgpt.com/g/g-6884f09fbc108191863f101eff5d2652-ai-bingo-buddy",
+      imageUrl: "/src/assets/ai-bingo-buddy-screenshot.png",
     },
     {
       title: "PM Experiment",
