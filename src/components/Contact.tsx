@@ -23,8 +23,10 @@ const Contact = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   Let's discuss your project or opportunity
                 </p>
-                <Button variant="outline" size="sm">
-                  your.email@example.com
+                <Button variant="outline" size="sm" asChild>
+                  <a href="mailto:liamtheeke@gmail.com">
+                    liamtheeke@gmail.com
+                  </a>
                 </Button>
               </CardContent>
             </Card>

@@ -60,8 +60,10 @@ const Hero = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
-              <Button variant="ghost" size="icon" className="text-white hover:bg-white/20">
-                <Mail className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="text-white hover:bg-white/20" asChild>
+                <a href="mailto:liamtheeke@gmail.com">
+                  <Mail className="h-5 w-5" />
+                </a>
               </Button>
             </div>
           </div>
