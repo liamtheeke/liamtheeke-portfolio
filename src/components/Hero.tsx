@@ -49,8 +49,10 @@ const Hero = () => {
               <Button variant="ghost" size="icon" className="text-white hover:bg-white/20">
                 <Github className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="text-white hover:bg-white/20">
-                <Linkedin className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="text-white hover:bg-white/20" asChild>
+                <a href="https://www.linkedin.com/in/liamtheeke/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5" />
+                </a>
               </Button>
               <Button variant="ghost" size="icon" className="text-white hover:bg-white/20">
                 <Mail className="h-5 w-5" />

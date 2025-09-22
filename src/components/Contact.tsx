@@ -47,8 +47,10 @@ const Contact = () => {
             <Button variant="outline" size="icon" className="hover:bg-primary hover:text-white transition-colors">
               <Github className="h-5 w-5" />
             </Button>
-            <Button variant="outline" size="icon" className="hover:bg-primary hover:text-white transition-colors">
-              <Linkedin className="h-5 w-5" />
+            <Button variant="outline" size="icon" className="hover:bg-primary hover:text-white transition-colors" asChild>
+              <a href="https://www.linkedin.com/in/liamtheeke/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-5 w-5" />
+              </a>
             </Button>
             <Button variant="outline" size="icon" className="hover:bg-primary hover:text-white transition-colors">
               <MessageCircle className="h-5 w-5" />
