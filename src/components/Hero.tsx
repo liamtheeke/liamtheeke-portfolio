@@ -30,7 +30,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Amazon Product Manager driving $625M+ ROI through strategic supply chain innovations. 
+            Product Manager driving $625M+ ROI through strategic supply chain innovations. 
             Bridging product vision with technical execution through data-driven solutions and creative coding.
           </p>
           

@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: <Brain className="w-8 h-8" />,
       title: "Strategic Product Vision",
-      description: "Implementing solutions saving $125M+ in costs and driving $625M ROI through data-driven product strategy at Amazon."
+      description: "Implementing solutions saving $125M+ in costs and driving $625M ROI through data-driven product strategy."
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -34,7 +34,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              I'm a Product Manager at Amazon who has driven over $625M in ROI through strategic 
+              I'm a Product Manager who has driven over $625M in ROI through strategic 
               supply chain innovations. I believe the best products come from understanding both 
               the strategic why and the technical how. My "vibe coding" projects are experiments 
               where I explore ideas, test hypotheses, and build solutions that matter - combining 
