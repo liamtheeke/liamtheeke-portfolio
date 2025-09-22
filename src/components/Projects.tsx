@@ -15,13 +15,7 @@ const Projects = () => {
       tags: ["AI Product Design", "Community Building", "Prompt Engineering", "Event Tools"],
       liveUrl: "https://chatgpt.com/g/g-6884f09fbc108191863f101eff5d2652-ai-bingo-buddy",
       imageUrl: "/ai-bingo-buddy-screenshot.png",
-    },
-    {
-      title: "PM Experiment",
-      description: "Space for your third project. Show how you identified an opportunity, validated the idea, and brought it to life through code.",
-      tags: ["MVP Development", "User Testing", "Iterative Design"],
-      isPlaceholder: true,
-    },
+    }
   ];
 
   return (
@@ -41,12 +35,6 @@ const Projects = () => {
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
-        </div>
-        
-        <div className="text-center mt-12">
-          <p className="text-muted-foreground mb-4">
-            Ready to add your projects? Simply provide the links and details!
-          </p>
         </div>
       </div>
     </section>
