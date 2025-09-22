@@ -1,7 +1,14 @@
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
-  const projects = [
+const projects = [
+    {
+      title: "CerealAI",
+      description: "B2B AI platform offering a suite of internal application tools. Features AI app builder (Snap), natural language SQL queries (Crackle), and company knowledge assistant (Pop). Designed to tackle specific backlog pain points with enterprise-grade security.",
+      tags: ["B2B AI", "Enterprise SaaS", "Internal Tools", "Product Strategy"],
+      liveUrl: "https://cerealai.lovable.app/",
+      imageUrl: "/cerealai-screenshot.png",
+    },
     {
       title: "PL Survivor",
       description: "A Premier League survival game where players pick winners each gameweek to survive elimination. Features group creation, lives system, power-ups, and a competitive pot system. Built with engaging UI and real-time game state management.",
