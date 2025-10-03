@@ -10,11 +10,11 @@ const projects = [
       imageUrl: "/cerealai-screenshot.png",
     },
     {
-      title: "PL Survivor",
-      description: "A Premier League survival game where players pick winners each gameweek to survive elimination. Features group creation, lives system, power-ups, and a competitive pot system. Built with engaging UI and real-time game state management.",
-      tags: ["Game Design", "User Engagement", "Sports Tech", "Group Dynamics"],
-      liveUrl: "https://huggingface.co/spaces/liamtheeke/pl-survivor",
-      imageUrl: "/pl-survivor-screenshot.png",
+      title: "Outlastr",
+      description: "Sports survival league platform where players predict weekly winners across Premier League and other sports. Features league creation, lives-based elimination system, and competitive prize pools. Last player standing wins.",
+      tags: ["Sports Tech", "League Management", "User Engagement", "Prize Pools"],
+      liveUrl: "https://outlastr.com",
+      imageUrl: "/outlastr-screenshot.png",
     },
     {
       title: "AI Bingo Buddy",
