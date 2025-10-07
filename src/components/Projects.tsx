@@ -17,6 +17,13 @@ const projects = [
       imageUrl: "/outlastr-screenshot.png",
     },
     {
+      title: "FixMyTeam",
+      description: "Data-driven football analytics platform that identifies team performance gaps and provides AI-powered player recommendations. Uses statistical analysis to reveal weaknesses and suggest targeted signings for any club, any league.",
+      tags: ["Sports Analytics", "AI Recommendations", "Data Analysis", "Football Tech"],
+      liveUrl: "https://fixmyteam.lovable.app/",
+      imageUrl: "/fixmyteam-screenshot.png",
+    },
+    {
       title: "AI Bingo Buddy",
       description: "A custom ChatGPT that creates printable themed bingo cards with interactive features for any event. Demonstrates AI prompt engineering and product design thinking for community-building tools and event engagement.",
       tags: ["AI Product Design", "Community Building", "Prompt Engineering", "Event Tools"],
