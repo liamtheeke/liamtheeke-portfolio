@@ -10,6 +10,7 @@ interface ProjectCardProps {
   githubUrl?: string;
   imageUrl?: string;
   isPlaceholder?: boolean;
+  featured?: boolean;
 }
 
 const ProjectCard = ({ 
@@ -19,11 +20,12 @@ const ProjectCard = ({
   liveUrl, 
   githubUrl, 
   imageUrl,
-  isPlaceholder = false 
+  isPlaceholder = false,
+  featured = false
 }: ProjectCardProps) => {
   return (
-    <Card className="group hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-2 bg-card border-border">
-      <div className="aspect-video bg-gradient-secondary rounded-t-lg overflow-hidden relative">
+    <Card className={`group hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-2 bg-card border-border overflow-hidden ${featured ? 'md:grid md:grid-cols-2' : ''}`}>
+      <div className={`bg-gradient-secondary overflow-hidden relative ${featured ? 'aspect-[16/9] md:aspect-auto md:min-h-[400px]' : 'aspect-video rounded-t-lg'}`}>
         {imageUrl ? (
           <img 
             src={imageUrl} 
@@ -43,12 +45,12 @@ const ProjectCard = ({
         )}
       </div>
       
-      <CardContent className="p-6">
-        <h3 className="text-xl font-semibold mb-3 text-foreground group-hover:text-primary transition-colors">
+      <CardContent className={`p-6 flex flex-col justify-center ${featured ? 'md:p-10' : ''}`}>
+        <h3 className={`font-semibold mb-3 text-foreground group-hover:text-primary transition-colors ${featured ? 'text-2xl md:text-3xl' : 'text-xl'}`}>
           {title}
         </h3>
         
-        <p className="text-muted-foreground mb-4 leading-relaxed">
+        <p className={`text-muted-foreground mb-4 leading-relaxed ${featured ? 'text-lg' : ''}`}>
           {description}
         </p>
         

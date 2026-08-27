@@ -1,14 +1,15 @@
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
-const projects = [
-    {
-      title: "Outlastr",
-      description: "Sports survival league platform where players predict weekly winners across Premier League and other sports. Features league creation, lives-based elimination system, and competitive prize pools. Last player standing wins.",
-      tags: ["Sports Tech", "League Management", "User Engagement", "Prize Pools"],
-      liveUrl: "https://outlastr.com",
-      imageUrl: "/outlastr-screenshot.png",
-    },
+  const featuredProject = {
+    title: "Outlastr",
+    description: "Sports survival league platform where players predict weekly winners across Premier League and other sports. Features league creation, lives-based elimination system, and competitive prize pools. Last player standing wins.",
+    tags: ["Sports Tech", "League Management", "User Engagement", "Prize Pools"],
+    liveUrl: "https://outlastr.com",
+    imageUrl: "/outlastr-screenshot.png",
+  };
+
+  const projects = [
     {
       title: "CerealAI",
       description: "B2B AI platform offering a suite of internal application tools. Features AI app builder (Snap), natural language SQL queries (Crackle), and company knowledge assistant (Pop). Designed to tackle specific backlog pain points with enterprise-grade security.",
@@ -45,10 +46,14 @@ const projects = [
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} />
-          ))}
+        <div className="max-w-7xl mx-auto space-y-8">
+          <ProjectCard {...featuredProject} featured />
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {projects.map((project, index) => (
+              <ProjectCard key={index} {...project} />
+            ))}
+          </div>
         </div>
       </div>
     </section>
