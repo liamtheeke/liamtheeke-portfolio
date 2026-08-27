@@ -10,6 +10,7 @@ interface ProjectCardProps {
   githubUrl?: string;
   imageUrl?: string;
   isPlaceholder?: boolean;
+  featured?: boolean;
 }
 
 const ProjectCard = ({ 
@@ -19,7 +20,8 @@ const ProjectCard = ({
   liveUrl, 
   githubUrl, 
   imageUrl,
-  isPlaceholder = false 
+  isPlaceholder = false,
+  featured = false
 }: ProjectCardProps) => {
   return (
     <Card className="group hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-2 bg-card border-border">
