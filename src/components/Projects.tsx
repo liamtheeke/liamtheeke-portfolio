@@ -17,13 +17,6 @@ const projects = [
       imageUrl: "/cerealai-screenshot.png",
     },
     {
-      title: "Outlastr",
-      description: "Sports survival league platform where players predict weekly winners across Premier League and other sports. Features league creation, lives-based elimination system, and competitive prize pools. Last player standing wins.",
-      tags: ["Sports Tech", "League Management", "User Engagement", "Prize Pools"],
-      liveUrl: "https://outlastr.com",
-      imageUrl: "/outlastr-screenshot.png",
-    },
-    {
       title: "FixMyTeam",
       description: "Data-driven football analytics platform that identifies team performance gaps and provides AI-powered player recommendations. Uses statistical analysis to reveal weaknesses and suggest targeted signings for any club, any league.",
       tags: ["Sports Analytics", "AI Recommendations", "Data Analysis", "Football Tech"],
