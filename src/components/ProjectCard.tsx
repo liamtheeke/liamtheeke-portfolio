@@ -24,8 +24,8 @@ const ProjectCard = ({
   featured = false
 }: ProjectCardProps) => {
   return (
-    <Card className="group hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-2 bg-card border-border">
-      <div className="aspect-video bg-gradient-secondary rounded-t-lg overflow-hidden relative">
+    <Card className={`group hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-2 bg-card border-border overflow-hidden ${featured ? 'md:grid md:grid-cols-2' : ''}`}>
+      <div className={`bg-gradient-secondary overflow-hidden relative ${featured ? 'aspect-[16/9] md:aspect-auto md:min-h-[400px]' : 'aspect-video rounded-t-lg'}`}>
         {imageUrl ? (
           <img 
             src={imageUrl} 
