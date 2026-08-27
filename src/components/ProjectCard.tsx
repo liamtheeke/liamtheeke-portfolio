@@ -45,12 +45,12 @@ const ProjectCard = ({
         )}
       </div>
       
-      <CardContent className="p-6">
-        <h3 className="text-xl font-semibold mb-3 text-foreground group-hover:text-primary transition-colors">
+      <CardContent className={`p-6 flex flex-col justify-center ${featured ? 'md:p-10' : ''}`}>
+        <h3 className={`font-semibold mb-3 text-foreground group-hover:text-primary transition-colors ${featured ? 'text-2xl md:text-3xl' : 'text-xl'}`}>
           {title}
         </h3>
         
-        <p className="text-muted-foreground mb-4 leading-relaxed">
+        <p className={`text-muted-foreground mb-4 leading-relaxed ${featured ? 'text-lg' : ''}`}>
           {description}
         </p>
         
